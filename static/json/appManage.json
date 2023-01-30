@@ -1,0 +1,19 @@
+{
+    "appAmount":2,
+    "appInfoList":[
+        {
+            "appName":"WeiWeiAn",
+            "appType":1,
+            "status":"DEV",
+            "appId":1,
+            "templateName":"白色应用"
+        },
+        {
+            "appName":"XiaoXi",
+            "appType":2,
+            "status":"DEV",
+            "appId":2,
+            "templateName":"黑色应用"
+        }
+    ]
+}

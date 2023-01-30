@@ -1,0 +1,68 @@
+[{
+    "name":"简介",
+    "url":"/static/developmentDocument/test.md",
+    "obj_type":2
+},
+{
+    "name":"更新日志",
+    "url":"/static/api/changelog.md",
+    "obj_type":2
+},
+{
+    "label":"网络请求",
+    "obj_type":1,
+    "child":[
+        {
+            "label":"WebSocket",
+            "obj_type":1,
+            "nav_level":2,
+            "child":[
+                {
+                    "name":"ap.sendSocketMessage",
+                    "url":"/api/sendSocketMessage.html",
+                    "obj_type":2
+                },
+                {
+                    "name":"ap.closeSocket",
+                    "url":"/api/closeSocket.html",
+                    "obj_type":2
+                }
+            ]
+        }
+    ]
+},
+{
+    "label":"数据",
+    "obj_type":1,
+    "child":[
+        {
+            "label":"会话数据",
+            "obj_type":1,
+            "nav_level":2,
+            "child":[
+                {
+                    "name":"ap.setSessionData",
+                    "url":"/api/setSessionData.html",
+                    "obj_type":2
+                },
+                {
+                    "name":"ap.getSessionData",
+                    "url":"/api/getSessionData.html",
+                    "obj_type":2
+                }
+            ]
+        },
+        {
+            "label":"URL参数",
+            "obj_type":1,
+            "nav_level":2,
+            "child":[
+                {
+                    "name":"ap.parseQueryString",
+                    "url":"/api/parseQueryString.html",
+                    "obj_type":2
+                }
+            ]
+        }
+    ]
+}]

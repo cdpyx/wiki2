@@ -1,0 +1,20 @@
+[
+    {
+        "appId":"1",
+        "name":"hello",
+        "type":"1",
+        "logo":"https://zos.alipayobjects.com/rmsportal/ufvjlwoVlamihOrJGkzv.png"
+    },
+    {
+        "appId":"2",
+        "name":"pink",
+        "type":"2",
+        "logo":"https://zos.alipayobjects.com/rmsportal/ufvjlwoVlamihOrJGkzv.png"
+    },
+    {
+        "appId":"3",
+        "name":"Dog Dog",
+        "type":"3",
+        "logo":"https://zos.alipayobjects.com/rmsportal/ufvjlwoVlamihOrJGkzv.png"
+    }
+]

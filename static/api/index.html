@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello!</title>
+<link rel="stylesheet" href="base.css" />
+<script type="text/javascript" src="MathJax.js"></script>
+</head>
+<body><div class="container"><h1 id="hillinsight-container">hillinsight  container</h1>
+
+
+
+<h3 id="userdefaults">UserDefaults</h3>
+
+<p><strong>When  to  use  UserDefaults</strong> <br>
+when  you  want  to  store  some  small  ,insensitive  and  permanent  information  in  your  app</p>
+
+
+
+<h4 id="set-information-for-a-key">Set  information  for  a  key</h4>
+
+
+
+<pre class="prettyprint"><code class=" hljs coffeescript">set({String},  {String,  Number,  Bool,  Object,  Array},  [,slot]  [,callback])
+
+<span class="hljs-attribute">Example</span>:
+userDefaults.set(<span class="hljs-string">"key1"</span>,  <span class="hljs-string">"valueIsString"</span>)
+ .<span class="hljs-keyword">then</span>(data<span class="hljs-function">  =&gt;</span>  <span class="hljs-built_in">console</span>.log(data))      <span class="hljs-regexp">//</span>  Save  success
+
+userDefaults.set<span class="hljs-function"><span class="hljs-params">(<span class="hljs-string">"key2"</span>,  [<span class="hljs-number">1</span>,  <span class="hljs-literal">true</span>],  ${uuid},  (err,  data)  =&gt;  {
+ <span class="hljs-keyword">if</span>(!err)  <span class="hljs-built_in">console</span>.log(data)                  <span class="hljs-regexp">//</span>  Save  success
+})</span></span></code></pre>
+
+
+
+<h4 id="get-information-of-a-key">Get  information  of  a  key</h4>
+
+
+
+<pre class="prettyprint"><code class=" hljs coffeescript">get({String}  [,slot]  [,callback])
+
+<span class="hljs-attribute">Example</span>:
+userDefaults.get(<span class="hljs-string">"key1"</span>)
+ .<span class="hljs-keyword">then</span>(data<span class="hljs-function">  =&gt;</span>  <span class="hljs-built_in">console</span>.log(data))      <span class="hljs-regexp">//</span>  value  <span class="hljs-keyword">for</span>  the  key1
+
+userDefaults.get<span class="hljs-function"><span class="hljs-params">(<span class="hljs-string">"key2"</span>,  ${uuid},  (err,  data)  =&gt;  {
+ <span class="hljs-keyword">if</span>(!err)  <span class="hljs-built_in">console</span>.log(data)                  <span class="hljs-regexp">//</span>  value  <span class="hljs-keyword">for</span>  the  key2
+})</span></span></code></pre>
+
+
+
+<h4 id="remove-an-item">Remove  an  item</h4>
+
+
+
+<pre class="prettyprint"><code class=" hljs haskell"><span class="hljs-title">remove</span>({<span class="hljs-type">String</span>}  [,slot]  [,callback])
+
+<span class="hljs-type">Example</span>:
+<span class="hljs-title">userDefaults</span>.remove(<span class="hljs-string">"key1"</span>)
+ .<span class="hljs-keyword">then</span>(<span class="hljs-typedef"><span class="hljs-keyword">data</span>  =&gt;  console.log<span class="hljs-container">(<span class="hljs-title">data</span>)</span>)      //  <span class="hljs-type">Remove</span>  success</span></code></pre>
+
+
+
+<h4 id="empty-all-items-which-are-not-defaultapp-default-settings-will-be-reserved">Empty  all  items  which  are  not  default(APP  default  settings  will  be  reserved)</h4>
+
+
+
+<pre class="prettyprint"><code class=" hljs livecodeserver"><span class="hljs-constant">empty</span>(slot  [,callback])
+
+Example:
+userDefaults.<span class="hljs-constant">empty</span>()
+ .<span class="hljs-keyword">then</span>(data  =&gt;  console.<span class="hljs-built_in">log</span>(data))     <span class="hljs-comment"> //  Empty  success</span></code></pre>
+
+<hr></div></body>
+</html>

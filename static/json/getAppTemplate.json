@@ -1,0 +1,20 @@
+[
+    {
+        "logo":"https://zos.alipayobjects.com/rmsportal/LHOwsfdUrDkSWYThlSqF.png",
+        "cardName":"听音",
+        "cardDesc":"Swarovski",
+        "appType":"1"
+    },
+    {
+        "logo":"https://zos.alipayobjects.com/rmsportal/LHOwsfdUrDkSWYThlSqF.png",
+        "cardName":"徽音",
+        "cardDesc":"徽音",
+        "appType":"2"
+    },
+    {
+        "logo":"https://zos.alipayobjects.com/rmsportal/LHOwsfdUrDkSWYThlSqF.png",
+        "cardName":"Skyfield",
+        "cardDesc":"Skyfield",
+        "appType":"3"
+    }
+]   
